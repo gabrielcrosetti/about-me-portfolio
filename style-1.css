@@ -1,0 +1,47 @@
+body {
+background-color: rgb(75, 75, 168);
+
+}
+
+
+.topbar {
+background-color: rgb(182, 179, 179);
+height: 80px;
+width: 100%;
+
+}
+h1 {  
+    margin-left: 15px;
+    float: left;
+}
+
+#namebar {
+font-family: ekra;
+
+}
+
+
+#nav-bar {
+    display: flex;
+    flex-direction: row-reverse;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+button {
+    background-color: peachpuff;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+button:hover {
+    box-shadow: 3px 2px black;
+}
