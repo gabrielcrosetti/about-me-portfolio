@@ -1,47 +1,81 @@
-body {
-background-color: rgb(75, 75, 168);
+ * { 
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+background-color: #24252A;
+}
+
+
+li, a, button {
+font-family: sans-serif;
+font-weight: 500;
+font-size: 18px;
+color: #edf0f1;
+text-decoration: none;
+}
+
+header {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+padding: 25px 10%;
 
 }
 
 
-.topbar {
-background-color: rgb(182, 179, 179);
-height: 80px;
-width: 100%;
-
-}
-h1 {  
-    margin-left: 15px;
-    float: left;
-}
-
-#namebar {
-font-family: ekra;
+.namebar {
+margin-right: auto;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #edf0f1;
 
 }
 
-
-#nav-bar {
-    display: flex;
-    flex-direction: row-reverse;
+.nav-bar {
+    list-style: none;
     float: right;
-    justify-content: center;
-    align-items: center;
-    padding-top: 15px;
-    padding-right: 15px;
 }
+
+.nav-bar li {
+    display: inline-block;
+    padding: 0px 20px;
+    cursor: pointer;
+    
+}
+
+
+
+.nav-bar li a:hover {
+    color: rgb(233, 98, 98);
+}
+
 
 button {
-    background-color: peachpuff;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: black;
-    border-width: 2px;
-    padding: 10px;
-    margin: 5px;
-
+    background-color: rgb(233,98,98);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 20px;
+    
 }
 
 button:hover {
+    background-color: rgb(233,98,98, 0.8);
     box-shadow: 3px 2px black;
+}
+
+h1 {
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #edf0f1;
+}
+
+.about-me {
+padding-left: 50px;
+
+}
+
+.resize {
+width: 300px;
+height: auto;
 }
