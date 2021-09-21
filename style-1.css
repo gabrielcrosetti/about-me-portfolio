@@ -5,9 +5,11 @@ padding: 0;
 background-color: #24252A;
 }
 
+body {
+    font-family: 'League Spartan', Arial;
+}
 
 li, a, button {
-font-family: sans-serif;
 font-weight: 500;
 font-size: 18px;
 color: #edf0f1;
@@ -24,7 +26,6 @@ padding: 25px 10%;
 
 .namebar {
 margin-right: auto;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 color: #edf0f1;
 font-size: 40px;
 }
@@ -63,7 +64,6 @@ button:hover {
 
 h1 {
     margin-right: auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #edf0f1;
 }
 
@@ -77,13 +77,13 @@ gap: 150px;
 
 
 .about-me {
-margin-top: 130px;
+margin-top: 150px;
 margin-bottom: 20px;
 text-decoration: underline;
 }
 
 .resize {
-margin-top: 88px;
+margin-top: 110px;
 margin-left: 300px  ;
 width: 285px;
 height: auto;
@@ -99,7 +99,6 @@ border-radius: 50%;
 
 #about-para {
     color: #edf0f1;
-    font-family: sans-serif;
     font-size: 18px;
     line-height: 2;
 }
@@ -109,7 +108,7 @@ align-self: center;
 }
 
 .project-head {
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 80px;
     text-align: center;
     text-decoration: underline;
@@ -131,7 +130,10 @@ align-self: center;
 }
 
 .project-img:hover {
-transform: rotate(4deg);
+ -webkit-box-shadow: 0px 0px 30px 0px rgba(248, 244, 245, 0.67);
+-moz-box-shadow:    0px 0px 30px 0px rgba(248, 244, 245, 0.67);
+box-shadow:         0px 0px 30px 0px rgba(248, 244, 245, 0.67);
+transition: all 0.2s ease-in-out;
 }
 
 
@@ -140,12 +142,14 @@ transform: rotate(4deg);
     font-size: 22px;
     text-align: center;
     color: #edf0f1;
-    font-family: sans-serif;
+}
 
+#skills {
+    align-self: center;
 }
 
 .skills-head {
-    margin-top: 30px;
+    margin-top: 100px;
     margin-bottom: 70px;
     text-align: center;
     text-decoration: underline;
@@ -156,14 +160,25 @@ transform: rotate(4deg);
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     gap: 100px;
 }
 
 .skills-img
-{width: 1000px;
-height: auto;
-align-content: center;
 
+{width: 200px;
+height: auto;
+cursor: pointer;
+padding: 10px;
+}
+
+
+
+.skills-para {
+    margin-top: 0px;
+    margin-bottom: 45px;
+    font-size: 28px;
+    text-align: center;
+    color: #edf0f1;
 }
 
