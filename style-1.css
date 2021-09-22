@@ -220,3 +220,17 @@ cursor: pointer;
 align-self: center;
 }
 
+@media screen and (max-width: 939px){
+    header{
+        height: 100px;}
+
+    #about {
+        height: 150%;}
+}
+
+@media  screen and (max-width: 880px){
+#project-flex{ 
+width:400px;
+height: 300px;}
+}
+    
