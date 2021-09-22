@@ -156,7 +156,7 @@ transition: all 0.2s ease-in-out;
 
 .skills-head {
     margin-top: 100px;
-    margin-bottom: 70px;
+    margin-bottom: 90px;
     text-align: center;
     text-decoration: underline;
 
@@ -193,15 +193,30 @@ align-self: center;
 }
 
 .contact-head {
-    margin-bottom: 70px;
+    margin-top: 75px;
+    margin-bottom: 100px;
     text-align: center;
     text-decoration: underline;
 }
 
 #contact-flex {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 50px;
 }
+
+.contact-para {
+    font-size: 23px;
+    color: #edf0f1;
+    align-self: center;
+}
+
+.contact-img {
+width: 100px;
+height: auto;
+cursor: pointer;
+align-self: center;
+}
+
